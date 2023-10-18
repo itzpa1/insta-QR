@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header i {
+    font-size: 30px;
+}
+
+header .option {
+    padding: 5px 10px;
+    border: 2px solid #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.075);
+}
+
+.option span{
+    font-size: 18px;
+}
+
+header img {
+    width: 40px;
+}
+
+.container {
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container qr {
+    border-radius: 20px;
+}
+
+qr-code {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    background: #00f;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.socialBtn {
+    width: 40%;
+}
+
+
+.color{
+    module-color:#1c7d43;
+    position-ring-color: #13532d ;
+    position-center-color: #70c559;
+}
