@@ -37,7 +37,7 @@ header .option {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.075);
+    background: #00000013;
 }
 
 .option span{
@@ -72,12 +72,50 @@ qr-code {
     border-radius: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+svg{
+    width: 50px;
 }
 
 .socialBtn {
     width: 40%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.Btn {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.Btn:hover{
+    background: #00000013;
+}
+
+.Btn i{
+    font-size: 25px;
+}
+
+.Btn p{
+    font-size: 12px;
+    width: auto;
+    text-align: center;
+}
 
 .color{
     module-color:#1c7d43;
